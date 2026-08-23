@@ -4,28 +4,123 @@
   <meta charset="UTF-8" />
   <title>BitcoinZ (BTCZ) — All About BTC</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="BitcoinZ (BTCZ) is a community-driven privacy coin launched 9 September 2017. Based on Zcash technology with zk-SNARKs, ASIC-resistant mining, no premine and no ICO." />
   <link rel="icon" type="image/png" href="../../favicon.png">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../../styles.css" />
+
   <style>
-    .placeholder-page {
-      max-width: 800px;
+    .fork-detail {
+      max-width: 860px;
       margin: 0 auto;
-      padding: 3rem 1.25rem 4rem;
+      padding: 2rem 1.25rem 4rem;
+    }
+
+    .fork-detail h1 {
+      margin-bottom: 0.35rem;
       text-align: center;
     }
-    .placeholder-page h1 {
-      margin-bottom: 1rem;
-    }
-    .placeholder-page p {
+
+    .fork-subtitle {
+      text-align: center;
       opacity: 0.85;
+      margin-bottom: 2rem;
       font-size: 1.05rem;
     }
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 0.85rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .meta-card {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 8px;
+      padding: 0.9rem 1rem;
+    }
+
+    .meta-card .label {
+      display: block;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      opacity: 0.65;
+      margin-bottom: 0.25rem;
+    }
+
+    .meta-card .value {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--secondary-accent);
+    }
+
+    .section {
+      margin-bottom: 2.25rem;
+    }
+
+    .section h2 {
+      margin-bottom: 0.75rem;
+      border-bottom: 1px solid rgba(255, 98, 0, 0.35);
+      padding-bottom: 0.35rem;
+    }
+
+    .section p, .section li {
+      line-height: 1.6;
+      opacity: 0.92;
+    }
+
+    .section ul {
+      padding-left: 1.3rem;
+    }
+
+    .section li {
+      margin-bottom: 0.45rem;
+    }
+
+    .tech-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 0.75rem;
+      font-size: 0.95rem;
+    }
+
+    .tech-table th,
+    .tech-table td {
+      text-align: left;
+      padding: 0.55rem 0.7rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .tech-table th {
+      color: var(--secondary-accent);
+      font-weight: 700;
+      width: 42%;
+    }
+
+    .links a {
+      display: inline-block;
+      margin-right: 1.1rem;
+      margin-bottom: 0.5rem;
+    }
+
     .back-link {
       display: inline-block;
-      margin-bottom: 2rem;
+      margin-bottom: 1.5rem;
       color: var(--secondary-accent);
       font-size: 0.95rem;
+    }
+
+    .note {
+      margin-top: 2.5rem;
+      padding: 1rem 1.15rem;
+      border-left: 3px solid var(--secondary-accent);
+      background: rgba(255, 98, 0, 0.06);
+      font-size: 0.9rem;
+      opacity: 0.9;
+      line-height: 1.5;
     }
   </style>
 </head>
@@ -56,10 +151,158 @@
     </nav>
   </header>
 
-  <main class="placeholder-page">
+  <main class="fork-detail">
     <a class="back-link" href="../../forks.html">← Back to Historical Forks</a>
+
     <h1>BitcoinZ (BTCZ)</h1>
-    <p>Page under construction.</p>
+    <p class="fork-subtitle">Community-driven privacy coin launched September 2017 — fair start, no premine, zk-SNARKs</p>
+
+    <div class="meta-grid">
+      <div class="meta-card">
+        <span class="label">Launch Date</span>
+        <span class="value">9 September 2017</span>
+      </div>
+      <div class="meta-card">
+        <span class="label">Genesis</span>
+        <span class="value">Own block #1</span>
+      </div>
+      <div class="meta-card">
+        <span class="label">Type</span>
+        <span class="value">New chain (Zcash-based)</span>
+      </div>
+      <div class="meta-card">
+        <span class="label">Ticker</span>
+        <span class="value">BTCZ</span>
+      </div>
+      <div class="meta-card">
+        <span class="label">Max Supply</span>
+        <span class="value">21,000,000,000</span>
+      </div>
+      <div class="meta-card">
+        <span class="label">Premine / ICO</span>
+        <span class="value">None</span>
+      </div>
+    </div>
+
+    <section class="section">
+      <h2>Overview</h2>
+      <p>
+        BitcoinZ (BTCZ) is a community-driven cryptocurrency launched on
+        <strong>9 September 2017</strong>. Unlike most entries on this historical forks page,
+        BTCZ is <strong>not</strong> a UTXO snapshot fork of Bitcoin. It started with its own
+        genesis block and is built on Zcash technology (zk-SNARKs for optional privacy)
+        while emphasizing Bitcoin-inspired principles of decentralization and fairness.
+      </p>
+      <p>
+        The project was started by an anonymous developer and immediately handed to the
+        community. Its founding principles stress no premine, no ICO, no developer tax,
+        ASIC-resistant mining, and fully decentralized development.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Founding Principles</h2>
+      <ul>
+        <li>100% decentralized development (volunteer contributors)</li>
+        <li>Zclassic spirit + Zcash core + Bitcoin fundamentals</li>
+        <li>No premine, no ICO, no developer taxes</li>
+        <li>Everyone should be able to mine (ASIC resistance)</li>
+        <li>Immutable history — hard forks only for improvements, never to rewrite the past</li>
+        <li>Fair proposal system and community equality</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Key Features</h2>
+      <ul>
+        <li><strong>Optional privacy</strong> — Transparent (t-) addresses and shielded (z-) addresses using zk-SNARKs.</li>
+        <li><strong>ASIC-resistant PoW</strong> — Originally Equihash; later migrated to Zhash to stay GPU-friendly.</li>
+        <li><strong>Fair launch</strong> — No premine or founder allocation.</li>
+        <li><strong>Larger supply model</strong> — 21 billion BTCZ maximum (vs Bitcoin’s 21 million).</li>
+        <li><strong>Community governance</strong> — Development and direction driven by volunteers and community proposals.</li>
+        <li><strong>Ongoing upgrades</strong> — Including Sapling and later Canopy network upgrades inherited/adapted from the Zcash family.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Technical Snapshot</h2>
+      <table class="tech-table">
+        <tr>
+          <th>Launch</th>
+          <td>9 September 2017, genesis block #1</td>
+        </tr>
+        <tr>
+          <th>Codebase origin</th>
+          <td>Zcash / Zclassic lineage</td>
+        </tr>
+        <tr>
+          <th>Privacy</th>
+          <td>zk-SNARKs (shielded z-addresses)</td>
+        </tr>
+        <tr>
+          <th>PoW (current emphasis)</th>
+          <td>Zhash (GPU-oriented, ASIC-resistant)</td>
+        </tr>
+        <tr>
+          <th>Max supply</th>
+          <td>21,000,000,000 BTCZ</td>
+        </tr>
+        <tr>
+          <th>Block time / size (approx.)</th>
+          <td>~2.5 minutes, larger blocks than early Bitcoin</td>
+        </tr>
+        <tr>
+          <th>Default ports</th>
+          <td>P2P 1989 · RPC 1979</td>
+        </tr>
+        <tr>
+          <th>Address types</th>
+          <td>Transparent (t1…) and shielded (zs…)</td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2>Relation to Bitcoin Forks</h2>
+      <p>
+        BitcoinZ appears on many 2017–2018 “Bitcoin fork” lists because of its name and
+        the era in which it launched. Technically, however, it is a new blockchain that
+        never shared UTXO history with Bitcoin. It does not give BTC holders free coins
+        the way BCH, BTG, or BCD did.
+      </p>
+      <p>
+        It is included here for historical completeness among the wave of projects that
+        used the Bitcoin name or branding during the 2017 fork explosion, while making
+        the distinction clear.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Later Development</h2>
+      <p>
+        The project has continued under community stewardship for years. Notable later
+        work includes algorithm adjustments (to maintain ASIC resistance), network
+        upgrades in the Zcash family (Sapling, Canopy, etc.), light wallets such as
+        BitcoinZ Blue, explorers, and ongoing node software releases. The official
+        GitHub organization and community site remain active.
+      </p>
+    </section>
+
+    <section class="section links">
+      <h2>Resources</h2>
+      <p>
+        <a href="https://getbtcz.com" target="_blank" rel="noopener">Official community site</a>
+        <a href="https://github.com/btcz/bitcoinz" target="_blank" rel="noopener">GitHub (node)</a>
+        <a href="https://bitcointalk.org/index.php?topic=3086664.0" target="_blank" rel="noopener">Bitcointalk thread</a>
+      </p>
+    </section>
+
+    <div class="note">
+      <strong>Note:</strong> BitcoinZ is a separate privacy-focused cryptocurrency, not a
+      direct hard fork of the Bitcoin UTXO set. Information on this page is compiled from
+      project documentation and public sources. Always verify current software and network
+      status independently.
+    </div>
   </main>
 
   <footer>
