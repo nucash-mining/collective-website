@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Historical Bitcoin Forks — All About BTC</title>
+  <title>Bitcoin UTXO Forks — All About BTC</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Timeline of historically important Bitcoin forks and related chain splits, including block heights and dates." />
+  <meta name="description" content="Historical archive of Bitcoin UTXO forks, chain splits, snapshot forks, and descendant UTXO forks." />
   <link rel="icon" type="image/png" href="favicon.png">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
@@ -172,7 +172,8 @@
             <a href="#resources" class="dropbtn">Resources</a>
             <div class="dropdown-content">
               <a href="projects/index.html">Active Projects</a>
-              <a href="forks.html">Historical Forks</a>
+              <a href="forks.html">Bitcoin UTXO Forks</a>
+              <a href="codebase-forks.html">Codebase Forks</a>
               <a href="wallets.html">Wallets</a>
               <a href="exchanges.html">Exchanges</a>
               <a href="mining-guides.html">Mining Guides</a>
@@ -193,461 +194,404 @@
   <main class="forks-page">
     <a class="back-link" href="index.html">← Back to Home</a>
 
-    <h1>Historical Bitcoin Forks</h1>
+    <h1>Bitcoin UTXO Forks</h1>
     <p class="forks-intro">
-      A chronological timeline of major and historically notable Bitcoin chain forks and related projects.
-      Each entry shows the name, approximate or confirmed date, and the block height at which the fork occurred (when known).
-      Click any entry to open its dedicated page (pages under construction).
+      A historical archive of Bitcoin UTXO forks — chains that inherited coin ownership,
+      blockchain state, or a snapshot from Bitcoin or one of its descendant chains.
+      Codebase forks that launched from their own genesis are documented separately.
     </p>
 
-    <h2 class="section-label">Major / Historically Important</h2>
+    <h2 class="section-label">Major Bitcoin UTXO Forks</h2>
 
     <ul class="timeline">
-      <!-- 2016–2017 clients -->
       <li class="timeline-item">
-        <a class="fork-card" href="forks/bitcoin-classic/index.html">
-          <h3 class="fork-name">Bitcoin Classic</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> 2016–2017</span>
-            <span><span class="label">Block</span> <span class="unknown">n/a (client project)</span></span>
-          </div>
-        </a>
-      </li>
+              <a class="fork-card" href="forks/bch/index.html">
+                <h3 class="fork-name">Bitcoin Cash (BCH)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> 1 August 2017</span>
+                  <span><span class="label">Block</span> 478,558</span>
+                </div>
+              </a>
+            </li>
 
       <li class="timeline-item">
-        <a class="fork-card" href="forks/bitcoin-unlimited/index.html">
-          <h3 class="fork-name">Bitcoin Unlimited</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> 2016–2017</span>
-            <span><span class="label">Block</span> <span class="unknown">n/a (scaling client)</span></span>
-          </div>
-        </a>
-      </li>
+              <a class="fork-card" href="forks/btg/index.html">
+                <h3 class="fork-name">Bitcoin Gold (BTG)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> 24 October 2017</span>
+                  <span><span class="label">Block</span> 491,407</span>
+                </div>
+              </a>
+            </li>
 
-      <!-- BCH -->
       <li class="timeline-item">
-        <a class="fork-card" href="forks/bch/index.html">
-          <h3 class="fork-name">Bitcoin Cash (BCH)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> 1 August 2017</span>
-            <span><span class="label">Block</span> 478,558</span>
-          </div>
-        </a>
-      </li>
+              <a class="fork-card" href="forks/btx/index.html">
+                <h3 class="fork-name">Bitcore (BTX)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> November 2017</span>
+                  <span><span class="label">Block</span> 492,820</span>
+                </div>
+              </a>
+            </li>
 
-      <!-- BTG -->
       <li class="timeline-item">
-        <a class="fork-card" href="forks/btg/index.html">
-          <h3 class="fork-name">Bitcoin Gold (BTG)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> 24 October 2017</span>
-            <span><span class="label">Block</span> 491,407</span>
-          </div>
-        </a>
-      </li>
+              <a class="fork-card" href="forks/bcd/index.html">
+                <h3 class="fork-name">Bitcoin Diamond (BCD)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> 24 November 2017</span>
+                  <span><span class="label">Block</span> 495,866</span>
+                </div>
+              </a>
+            </li>
 
-      <!-- Bitcore -->
       <li class="timeline-item">
-        <a class="fork-card" href="forks/btx/index.html">
-          <h3 class="fork-name">Bitcore (BTX)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> November 2017</span>
-            <span><span class="label">Block</span> 492,820</span>
-          </div>
-        </a>
-      </li>
+              <a class="fork-card" href="forks/god/index.html">
+                <h3 class="fork-name">Bitcoin God (GOD)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> 27 December 2017</span>
+                  <span><span class="label">Block</span> 501,225</span>
+                </div>
+              </a>
+            </li>
 
-      <!-- BCD -->
       <li class="timeline-item">
-        <a class="fork-card" href="forks/bcd/index.html">
-          <h3 class="fork-name">Bitcoin Diamond (BCD)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> 24 November 2017</span>
-            <span><span class="label">Block</span> 495,866</span>
-          </div>
-        </a>
-      </li>
-
-      <!-- Bitcoin God -->
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/god/index.html">
-          <h3 class="fork-name">Bitcoin God (GOD)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> 27 December 2017</span>
-            <span><span class="label">Block</span> 501,225</span>
-          </div>
-        </a>
-      </li>
-
-      <!-- Bitcoin Private -->
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/btcp/index.html">
-          <h3 class="fork-name">Bitcoin Private (BTCP)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> 3 March 2018</span>
-            <span><span class="label">Block</span> 511,346</span>
-          </div>
-        </a>
-      </li>
-
-      <!-- BSV -->
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/bsv/index.html">
-          <h3 class="fork-name">Bitcoin SV (BSV)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> 15 November 2018</span>
-            <span><span class="label">Block</span> 556,766 <small>(from BCH)</small></span>
-          </div>
-        </a>
-      </li>
-
-      <!-- eCash -->
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/xec/index.html">
-          <h3 class="fork-name">eCash (XEC)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> 15 November 2020</span>
-            <span><span class="label">Block</span> 661,648 <small>(from BCH)</small></span>
-          </div>
-        </a>
-      </li>
+              <a class="fork-card" href="forks/btcp/index.html">
+                <h3 class="fork-name">Bitcoin Private (BTCP)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> 3 March 2018</span>
+                  <span><span class="label">Block</span> 511,346</span>
+                </div>
+              </a>
+            </li>
     </ul>
 
     <h2 class="section-label">The 2017–2018 “Bitcoin Fork Explosion”</h2>
 
     <ul class="timeline">
       <li class="timeline-item">
-        <a class="fork-card" href="forks/btp/index.html">
-          <h3 class="fork-name">Bitcoin Platinum (BTP)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> ~December 2017</span>
-            <span><span class="label">Block</span> 498,533</span>
-          </div>
-        </a>
-      </li>
+              <a class="fork-card" href="forks/btp/index.html">
+                <h3 class="fork-name">Bitcoin Platinum (BTP)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> ~December 2017</span>
+                  <span><span class="label">Block</span> 498,533</span>
+                </div>
+              </a>
+            </li>
 
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/bth/index.html">
-          <h3 class="fork-name">Bitcoin Hot (BTH)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> ~December 2017</span>
-            <span><span class="label">Block</span> 498,777</span>
-          </div>
-        </a>
-      </li>
+            <li class="timeline-item">
+              <a class="fork-card" href="forks/bth/index.html">
+                <h3 class="fork-name">Bitcoin Hot (BTH)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> ~December 2017</span>
+                  <span><span class="label">Block</span> 498,777</span>
+                </div>
+              </a>
+            </li>
 
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/ubtc/index.html">
-          <h3 class="fork-name">UnitedBitcoin (UBTC)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> ~December 2017</span>
-            <span><span class="label">Block</span> 498,777</span>
-          </div>
-        </a>
-      </li>
+            <li class="timeline-item">
+              <a class="fork-card" href="forks/ubtc/index.html">
+                <h3 class="fork-name">UnitedBitcoin (UBTC)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> ~December 2017</span>
+                  <span><span class="label">Block</span> 498,777</span>
+                </div>
+              </a>
+            </li>
 
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/btw/index.html">
-          <h3 class="fork-name">Bitcoin World (BTW)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> ~December 2017</span>
-            <span><span class="label">Block</span> 499,777</span>
-          </div>
-        </a>
-      </li>
+            <li class="timeline-item">
+              <a class="fork-card" href="forks/btw/index.html">
+                <h3 class="fork-name">Bitcoin World (BTW)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> ~December 2017</span>
+                  <span><span class="label">Block</span> 499,777</span>
+                </div>
+              </a>
+            </li>
 
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/btsi/index.html">
-          <h3 class="fork-name">Bitcoin Silver (BTSI)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> 2017–2018</span>
-            <span><span class="label">Block</span> <span class="unknown">unknown</span></span>
-          </div>
-        </a>
-      </li>
+            <li class="timeline-item">
+              <a class="fork-card" href="forks/btsi/index.html">
+                <h3 class="fork-name">Bitcoin Silver (BTSI)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> 2017–2018</span>
+                  <span><span class="label">Block</span> <span class="unknown">unknown</span></span>
+                </div>
+              </a>
+            </li>
 
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/bum/index.html">
-          <h3 class="fork-name">Bitcoin Uranium (BUM)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> 2017–2018</span>
-            <span><span class="label">Block</span> <span class="unknown">unknown</span></span>
-          </div>
-        </a>
-      </li>
+            <li class="timeline-item">
+              <a class="fork-card" href="forks/bum/index.html">
+                <h3 class="fork-name">Bitcoin Uranium (BUM)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> 2017–2018</span>
+                  <span><span class="label">Block</span> <span class="unknown">unknown</span></span>
+                </div>
+              </a>
+            </li>
 
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/bpa/index.html">
-          <h3 class="fork-name">Bitcoin Pizza (BPA)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> ~January 2018</span>
-            <span><span class="label">Block</span> 501,888</span>
-          </div>
-        </a>
-      </li>
+            <li class="timeline-item">
+              <a class="fork-card" href="forks/bpa/index.html">
+                <h3 class="fork-name">Bitcoin Pizza (BPA)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> ~January 2018</span>
+                  <span><span class="label">Block</span> 501,888</span>
+                </div>
+              </a>
+            </li>
 
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/btcl/index.html">
-          <h3 class="fork-name">Bitcoin Lite (BTCL)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> 2017–2018</span>
-            <span><span class="label">Block</span> <span class="unknown">unknown</span></span>
-          </div>
-        </a>
-      </li>
+            <li class="timeline-item">
+              <a class="fork-card" href="forks/btcl/index.html">
+                <h3 class="fork-name">Bitcoin Lite (BTCL)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> 2017–2018</span>
+                  <span><span class="label">Block</span> <span class="unknown">unknown</span></span>
+                </div>
+              </a>
+            </li>
 
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/bcs/index.html">
-          <h3 class="fork-name">Bitcoin Smart (BCS)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> ~January 2018</span>
-            <span><span class="label">Block</span> 505,050</span>
-          </div>
-        </a>
-      </li>
+            <li class="timeline-item">
+              <a class="fork-card" href="forks/bcs/index.html">
+                <h3 class="fork-name">Bitcoin Smart (BCS)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> ~January 2018</span>
+                  <span><span class="label">Block</span> 505,050</span>
+                </div>
+              </a>
+            </li>
 
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/btcs/index.html">
-          <h3 class="fork-name">Bitcoin Stake (BTCS)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> ~December 2017</span>
-            <span><span class="label">Block</span> 499,999</span>
-          </div>
-        </a>
-      </li>
+            <li class="timeline-item">
+              <a class="fork-card" href="forks/btcs/index.html">
+                <h3 class="fork-name">Bitcoin Stake (BTCS)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> ~December 2017</span>
+                  <span><span class="label">Block</span> 499,999</span>
+                </div>
+              </a>
+            </li>
 
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/btf/index.html">
-          <h3 class="fork-name">Bitcoin Faith (BTF)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> ~December 2017</span>
-            <span><span class="label">Block</span> 500,000</span>
-          </div>
-        </a>
-      </li>
+            <li class="timeline-item">
+              <a class="fork-card" href="forks/btf/index.html">
+                <h3 class="fork-name">Bitcoin Faith (BTF)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> ~December 2017</span>
+                  <span><span class="label">Block</span> 500,000</span>
+                </div>
+              </a>
+            </li>
 
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/bcl/index.html">
-          <h3 class="fork-name">Bitcoin Lambo (BCL)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> 2017–2018</span>
-            <span><span class="label">Block</span> <span class="unknown">unknown</span></span>
-          </div>
-        </a>
-      </li>
+            <li class="timeline-item">
+              <a class="fork-card" href="forks/bcl/index.html">
+                <h3 class="fork-name">Bitcoin Lambo (BCL)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> 2017–2018</span>
+                  <span><span class="label">Block</span> <span class="unknown">unknown</span></span>
+                </div>
+              </a>
+            </li>
 
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/bca/index.html">
-          <h3 class="fork-name">Bitcoin Atom (BCA)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> January 2018</span>
-            <span><span class="label">Block</span> 505,888</span>
-          </div>
-        </a>
-      </li>
+            <li class="timeline-item">
+              <a class="fork-card" href="forks/bca/index.html">
+                <h3 class="fork-name">Bitcoin Atom (BCA)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> January 2018</span>
+                  <span><span class="label">Block</span> 505,888</span>
+                </div>
+              </a>
+            </li>
 
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/blg/index.html">
-          <h3 class="fork-name">Bitcoin Lightning (BLG)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> 2017–2018</span>
-            <span><span class="label">Block</span> <span class="unknown">unknown</span></span>
-          </div>
-        </a>
-      </li>
+            <li class="timeline-item">
+              <a class="fork-card" href="forks/blg/index.html">
+                <h3 class="fork-name">Bitcoin Lightning (BLG)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> 2017–2018</span>
+                  <span><span class="label">Block</span> <span class="unknown">unknown</span></span>
+                </div>
+              </a>
+            </li>
 
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/bcln/index.html">
-          <h3 class="fork-name">Bitcoin Clean (BCLN)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> ~2018</span>
-            <span><span class="label">Block</span> 518,800</span>
-          </div>
-        </a>
-      </li>
+            <li class="timeline-item">
+              <a class="fork-card" href="forks/bcln/index.html">
+                <h3 class="fork-name">Bitcoin Clean (BCLN)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> ~2018</span>
+                  <span><span class="label">Block</span> 518,800</span>
+                </div>
+              </a>
+            </li>
 
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/btcc/index.html">
-          <h3 class="fork-name">Bitcoin Core (BTCC)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> 2017–2018</span>
-            <span><span class="label">Block</span> <span class="unknown">unknown</span></span>
-            <span><small>(fork project / token — not Bitcoin Core software)</small></span>
-          </div>
-        </a>
-      </li>
+            <li class="timeline-item">
+              <a class="fork-card" href="forks/btcc/index.html">
+                <h3 class="fork-name">Bitcoin Core (BTCC)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> 2017–2018</span>
+                  <span><span class="label">Block</span> <span class="unknown">unknown</span></span>
+                  <span><small>(fork project / token — not Bitcoin Core software)</small></span>
+                </div>
+              </a>
+            </li>
 
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/bifi/index.html">
-          <h3 class="fork-name">Bitcoin File (BIFI)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> ~December 2017</span>
-            <span><span class="label">Block</span> 501,225</span>
-          </div>
-        </a>
-      </li>
+            <li class="timeline-item">
+              <a class="fork-card" href="forks/bifi/index.html">
+                <h3 class="fork-name">Bitcoin File (BIFI)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> ~December 2017</span>
+                  <span><span class="label">Block</span> 501,225</span>
+                </div>
+              </a>
+            </li>
 
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/cdy/index.html">
-          <h3 class="fork-name">Bitcoin Candy (CDY)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> January 2018</span>
-            <span><span class="label">Block</span> 512,666 <small>(BCH-derived)</small></span>
-          </div>
-        </a>
-      </li>
+            <li class="timeline-item">
+              <a class="fork-card" href="forks/btch/index.html">
+                <h3 class="fork-name">Bitcoin Hush (BTCH)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> ~February 2018</span>
+                  <span><span class="label">Block</span> <span class="unknown">unknown</span></span>
+                </div>
+              </a>
+            </li>
 
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/bchc/index.html">
-          <h3 class="fork-name">Bitcoin Clashic (BCHC)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> 2017</span>
-            <span><span class="label">Block</span> ~478,559 <small>(BCH-derived)</small></span>
-          </div>
-        </a>
-      </li>
+            <li class="timeline-item">
+              <a class="fork-card" href="forks/bci/index.html">
+                <h3 class="fork-name">Bitcoin Interest (BCI)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> January 2018</span>
+                  <span><span class="label">Block</span> 505,083</span>
+                </div>
+              </a>
+            </li>
 
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/btch/index.html">
-          <h3 class="fork-name">Bitcoin Hush (BTCH)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> ~February 2018</span>
-            <span><span class="label">Block</span> <span class="unknown">unknown</span></span>
-          </div>
-        </a>
-      </li>
+            <li class="timeline-item">
+              <a class="fork-card" href="forks/obtc/index.html">
+                <h3 class="fork-name">Bitcoin Oil (OBTC)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> ~December 2017</span>
+                  <span><span class="label">Block</span> 498,888</span>
+                </div>
+              </a>
+            </li>
 
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/bci/index.html">
-          <h3 class="fork-name">Bitcoin Interest (BCI)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> January 2018</span>
-            <span><span class="label">Block</span> 505,083</span>
-          </div>
-        </a>
-      </li>
+            <li class="timeline-item">
+              <a class="fork-card" href="forks/nro/index.html">
+                <h3 class="fork-name">Bitcoin Neuro (NRO)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> 2017–2018</span>
+                  <span><span class="label">Block</span> <span class="unknown">unknown</span></span>
+                </div>
+              </a>
+            </li>
 
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/obtc/index.html">
-          <h3 class="fork-name">Bitcoin Oil (OBTC)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> ~December 2017</span>
-            <span><span class="label">Block</span> 498,888</span>
-          </div>
-        </a>
-      </li>
+            <li class="timeline-item">
+              <a class="fork-card" href="forks/bna/index.html">
+                <h3 class="fork-name">Bitcoin Nano (BNA)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> 2017–2018</span>
+                  <span><span class="label">Block</span> <span class="unknown">unknown</span></span>
+                </div>
+              </a>
+            </li>
 
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/nro/index.html">
-          <h3 class="fork-name">Bitcoin Neuro (NRO)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> 2017–2018</span>
-            <span><span class="label">Block</span> <span class="unknown">unknown</span></span>
-          </div>
-        </a>
-      </li>
+            <li class="timeline-item">
+              <a class="fork-card" href="forks/bpq/index.html">
+                <h3 class="fork-name">Bitcoin Post-Quantum (BPQ)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> 2017–2018</span>
+                  <span><span class="label">Block</span> <span class="unknown">unknown</span></span>
+                </div>
+              </a>
+            </li>
 
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/bna/index.html">
-          <h3 class="fork-name">Bitcoin Nano (BNA)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> 2017–2018</span>
-            <span><span class="label">Block</span> <span class="unknown">unknown</span></span>
-          </div>
-        </a>
-      </li>
+            <li class="timeline-item">
+              <a class="fork-card" href="forks/bcx/index.html">
+                <h3 class="fork-name">BitcoinX (BCX)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> 12 December 2017</span>
+                  <span><span class="label">Block</span> 498,888</span>
+                </div>
+              </a>
+            </li>
 
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/bpq/index.html">
-          <h3 class="fork-name">Bitcoin Post-Quantum (BPQ)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> 2017–2018</span>
-            <span><span class="label">Block</span> <span class="unknown">unknown</span></span>
-          </div>
-        </a>
-      </li>
+            <li class="timeline-item">
+              <a class="fork-card" href="forks/sbtc/index.html">
+                <h3 class="fork-name">Super Bitcoin (SBTC)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> 12 December 2017</span>
+                  <span><span class="label">Block</span> 498,888</span>
+                </div>
+              </a>
+            </li>
 
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/bcx/index.html">
-          <h3 class="fork-name">BitcoinX (BCX)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> 12 December 2017</span>
-            <span><span class="label">Block</span> 498,888</span>
-          </div>
-        </a>
-      </li>
+            <li class="timeline-item">
+              <a class="fork-card" href="forks/xrc/index.html">
+                <h3 class="fork-name">Bitcoin Rhodium (XRC / BTR)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> ~January 2018</span>
+                  <span><span class="label">Block</span> <span class="unknown">unknown</span></span>
+                </div>
+              </a>
+            </li>
 
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/sbtc/index.html">
-          <h3 class="fork-name">Super Bitcoin (SBTC)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> 12 December 2017</span>
-            <span><span class="label">Block</span> 498,888</span>
-          </div>
-        </a>
-      </li>
+            <li class="timeline-item">
+              <a class="fork-card" href="forks/btc2/index.html">
+                <h3 class="fork-name">Bitcoin 2 (BTC2)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> 2018</span>
+                  <span><span class="label">Block</span> <span class="unknown">unknown</span></span>
+                </div>
+              </a>
+            </li>
 
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/btcz/index.html">
-          <h3 class="fork-name">BitcoinZ (BTCZ)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> 2017</span>
-            <span><span class="label">Block</span> <span class="unknown">unknown</span></span>
-          </div>
-        </a>
-      </li>
-
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/xrc/index.html">
-          <h3 class="fork-name">Bitcoin Rhodium (XRC / BTR)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> ~January 2018</span>
-            <span><span class="label">Block</span> <span class="unknown">unknown</span></span>
-          </div>
-        </a>
-      </li>
-
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/btc2/index.html">
-          <h3 class="fork-name">Bitcoin 2 (BTC2)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> 2018</span>
-            <span><span class="label">Block</span> <span class="unknown">unknown</span></span>
-          </div>
-        </a>
-      </li>
-
-      <li class="timeline-item">
-        <a class="fork-card" href="forks/bcp/index.html">
-          <h3 class="fork-name">Bitcoin Cash Plus (BCP)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Date</span> ~January 2018</span>
-            <span><span class="label">Block</span> 501,407</span>
-          </div>
-        </a>
-      </li>
+            <li class="timeline-item">
+              <a class="fork-card" href="forks/bcp/index.html">
+                <h3 class="fork-name">Bitcoin Cash Plus (BCP)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> ~January 2018</span>
+                  <span><span class="label">Block</span> 501,407</span>
+                </div>
+              </a>
+            </li>
     </ul>
 
-    <h2 class="section-label">The 2026 “Decentralized Merged Mining Explosion”</h2>
-
-    <p class="forks-intro">
-      Not chain splits. These carry Bitcoin's code forward rather than its ledger — launching from their
-      own genesis block with no snapshot of the Bitcoin UTXO set and no airdrop to BTC holders, and
-      bootstrapping security by merge-mining against Bitcoin and other established chains instead of
-      competing with them for hashrate.
-    </p>
+    <h2 class="section-label">Descendant UTXO Forks</h2>
 
     <ul class="timeline">
-      <!-- WATTx -->
       <li class="timeline-item">
-        <a class="fork-card" href="forks/WTX/index.html">
-          <h3 class="fork-name">WATTxchain (WTX)</h3>
-          <div class="fork-meta">
-            <span><span class="label">Genesis</span> 16 January 2025</span>
-            <span><span class="label">Block 1</span> 31 July 2026</span>
-          </div>
-        </a>
-      </li>
+              <a class="fork-card" href="forks/bchc/index.html">
+                <h3 class="fork-name">Bitcoin Clashic (BCHC)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> 2017</span>
+                  <span><span class="label">Block</span> ~478,559 <small>(BCH-derived)</small></span>
+                </div>
+              </a>
+            </li>
+
+      <li class="timeline-item">
+              <a class="fork-card" href="forks/cdy/index.html">
+                <h3 class="fork-name">Bitcoin Candy (CDY)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> January 2018</span>
+                  <span><span class="label">Block</span> 512,666 <small>(BCH-derived)</small></span>
+                </div>
+              </a>
+            </li>
+
+      <li class="timeline-item">
+              <a class="fork-card" href="forks/bsv/index.html">
+                <h3 class="fork-name">Bitcoin SV (BSV)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> 15 November 2018</span>
+                  <span><span class="label">Block</span> 556,766 <small>(from BCH)</small></span>
+                </div>
+              </a>
+            </li>
+
+      <li class="timeline-item">
+              <a class="fork-card" href="forks/xec/index.html">
+                <h3 class="fork-name">eCash (XEC)</h3>
+                <div class="fork-meta">
+                  <span><span class="label">Date</span> 15 November 2020</span>
+                  <span><span class="label">Block</span> 661,648 <small>(from BCH)</small></span>
+                </div>
+              </a>
+            </li>
     </ul>
 
     <div class="note">
